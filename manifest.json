@@ -1,0 +1,19 @@
+{
+  "name": "google-one-click-searcher",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "検索の種類をone clickで行うボタンの追加",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.com/search*",
+        "https://www.google.co.jp/search*"
+      ],
+      "js": [
+        "jquery.min.js",
+        "script.js"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}
