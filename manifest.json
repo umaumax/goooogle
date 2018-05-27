@@ -1,8 +1,8 @@
 {
-  "name": "google-one-click-searcher",
-  "version": "0.0.1",
+  "name": "goooogle",
+  "version": "0.0.4",
   "manifest_version": 2,
-  "description": "検索の種類をone clickで行うボタンの追加",
+  "description": "Google検索を加速させるツール",
   "content_scripts": [
     {
       "matches": [
