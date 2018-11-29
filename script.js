@@ -16,7 +16,7 @@ $(function() {
     // original keybind
     window.addEventListener('keydown', function(event) {
         console.log(event);
-        var e = $('#lst-ib');
+        var e = $('.gLFyf');
         var focusFlag = e.is($(':focus'));
         var text = e.text();
         var n = text.length;
@@ -63,8 +63,8 @@ $(function() {
         if (event.keyCode == 77 && event.ctrlKey && focusFlag) {
             $('#mKlEF').click();
         }
-        // ":", "s"earch -> goto search input
-        if ((event.keyCode == 186 || event.keyCode == 83) && !focusFlag) {
+        // Ctrl + S -> goto search input
+        if (event.keyCode == 83 && event.ctrlKey && !focusFlag) {
             // disable key
             event.preventDefault();
             e.focus();
