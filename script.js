@@ -1,15 +1,16 @@
 $(function() {
     // set one click botton
-    $('#hdtb-msb-vis').append('' +
-        '<div class="hdtb-mitem hdtb-imb">' +
+    var e = $('.hdtb-mitem.hdtb-msel');
+    e.parent().append('' +
+        '<div class="hdtb-mitem">' +
         '<a class="q qs" href="' + location.href + '&lr=lang_ja">日本語のみ</a>' +
         '</div>');
-    $('#hdtb-msb-vis').append('' +
-        '<div class="hdtb-mitem hdtb-imb">' +
+    e.parent().append('' +
+        '<div class="hdtb-mitem">' +
         '<a class="q qs" href="' + location.href + '&lr=lang_en">Only English</a>' +
         '</div>');
-    $('#hdtb-msb-vis').append('' +
-        '<div class="hdtb-mitem hdtb-imb">' +
+    e.parent().append('' +
+        '<div class="hdtb-mitem">' +
         '<a class="q qs" href="' + location.href + '&tbs=qdr:y">1年以内</a>' +
         '</div>');
 
