@@ -3,6 +3,10 @@ $(function() {
     var e = $('.hdtb-mitem.hdtb-msel');
     e.parent().append('' +
         '<div class="hdtb-mitem">' +
+        '<a class="q qs" href="' + location.href + '&tbs=qdr:y">1年以内</a>' +
+        '</div>');
+    e.parent().append('' +
+        '<div class="hdtb-mitem">' +
         '<a class="q qs" href="' + location.href + '&lr=lang_ja">日本語のみ</a>' +
         '</div>');
     e.parent().append('' +
@@ -11,7 +15,7 @@ $(function() {
         '</div>');
     e.parent().append('' +
         '<div class="hdtb-mitem">' +
-        '<a class="q qs" href="' + location.href + '&tbs=qdr:y">1年以内</a>' +
+        '<a class="q qs" href="' + location.href + '&gl=us">アメリカ版</a>' +
         '</div>');
 
     // original keybind
