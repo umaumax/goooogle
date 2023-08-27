@@ -1,5 +1,7 @@
 # goooogle
 
+__ Use https://github.com/umaumax/bookmarklets/blob/master/google-search-enhancer.user.js __
+
 Google Chrome Extension
 
 ## one click search botton
